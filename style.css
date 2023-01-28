@@ -1,0 +1,96 @@
+ header {
+    background-color: #951c1cc4;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+
+ header ul {
+    padding-left: 200px;
+    display: flex;
+  }
+
+ header li {
+    list-style: none;
+    margin-right: 40px;
+  }
+
+ a  {
+    color:black;
+    text-decoration: none;
+  }
+
+  h2 {
+    padding-left: 30px;
+
+  }
+
+  .home {
+    margin-top: 80px;
+    background-image: url('home.jpg');
+    background-size: cover;
+    height:500px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .white {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    color: white;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .work {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .work-box1{
+    padding: 20px;
+  }
+
+  img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .work-box2 {
+    text-align: center;
+  }
+
+
+  .url {
+    color: blue;
+  }
+
+
+  footer {
+    color: white;
+    height: 30px;
+    background-color: #000;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: flex-end;
+  }
+  
+   
